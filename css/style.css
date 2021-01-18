@@ -988,9 +988,11 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 .more-about-us .main-content {padding-left: 45px;}
 .more-about-us .main-content h2 {
   line-height: 60px;
+  padding-left: 20px;
 }
 .more-about-us .main-content .main-wrapper {
-  padding: 52px 0 0 65px;
+  /*padding: 52px 0 0 65px;*/
+  padding: 68px 0 0 80px;
 }
 .more-about-us .main-content .main-wrapper h4 {position: relative;}
 .more-about-us .main-content .main-wrapper h4:before {
@@ -1042,10 +1044,12 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   top:90px;
   left:-85px;
   z-index: 1;
+  padding-left: 70px;
 }
 .more-about-us .image-box .image-shape {
   -webkit-clip-path: url(#shape-one);
           clip-path: url(#shape-one);
+          /*margin-left: 50px;*/
 }
 .more-about-us .theme-shape-three {
   background: url(../svg/2.svg);
