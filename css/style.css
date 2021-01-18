@@ -1874,8 +1874,8 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
   position: relative;
   overflow: hidden;
   width: 100%;
-  min-height: 400px;
-  height: auto;
+  min-height: 300px;
+  /*height: auto;*/
 }
 .our-team-styleOne .single-team-member .image img {
   position: absolute;
@@ -1889,8 +1889,8 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
 }
 .our-team-styleOne .single-team-member .image .opacity p {
   display: inline-block;
-  margin: 0 10px;
-  top: 20%;
+  margin: 0 20px;
+  top: 5%;
   position: relative;
   text-align: justify;
 }
@@ -1902,7 +1902,8 @@ footer .bottom-footer {padding: 25px 0 70px 0;}
   top:0;
   right: 0;
   opacity: 0;
-  background: rgba(255,255,255,0.95);
+  background: #00d747;
+  /*background: rgba(255,255,255,0.95);*/
   -webkit-transform:scale(0.8);
           transform:scale(0.8);
 }
