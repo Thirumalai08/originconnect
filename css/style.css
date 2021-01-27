@@ -931,6 +931,12 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   margin: 0 auto;
   position: relative;
 }
+.what-we-do .single-block .icon img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28px;
+}
 .what-we-do .single-block .icon.color-one {color: #00d747;}
 .what-we-do .single-block .icon.color-two {color: #ff3838;}
 .what-we-do .single-block .icon.color-three {color: #9262ff;}
@@ -1049,7 +1055,6 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 .more-about-us .image-box .image-shape {
   -webkit-clip-path: url(#shape-one);
           clip-path: url(#shape-one);
-          /*margin-left: 50px;*/
 }
 .more-about-us .theme-shape-three {
   background: url(../svg/2.svg);
