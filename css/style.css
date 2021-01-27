@@ -342,6 +342,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a {
   margin: 0 22px;
   position: relative;
   z-index: 9;
+  color: #fff;
 }
 header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a:before,
 #mega-menu-wrapper .nav>li.dropdown-holder .sub-menu li a:before {
@@ -474,6 +475,7 @@ header.theme-menu-wrapper.menu-style-three #mega-menu-wrapper {margin-top: 20px;
   -webkit-animation: menu_sticky 0.7s ease-in-out;
   animation: menu_sticky 0.7s ease-in-out;
 }
+.theme-menu-wrapper.fixed .nav>li>a {color: #333 !important;}
 .theme-menu-wrapper.fixed.menu-style-two {background: #232323;}
 .theme-menu-wrapper.fixed.menu-style-two.inner-menu {background: rgba(21,21,21,0.9);}
 
