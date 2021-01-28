@@ -391,7 +391,7 @@ header.theme-menu-wrapper.menu-style-two.inner-menu #mega-menu-wrapper .nav .log
 header.theme-menu-wrapper.menu-style-three {padding-top: 45px;}
 /**/.header-wrapper .clearfix .logo {
   position: relative;
-  width: 200px;
+  width: 270px;
   height: 80px;
 }
 .menu-style-three .top-header p {
@@ -719,7 +719,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 }
 /*----------------------------- Banner Style Two ----------------*/
 #theme-main-banner.banner-two .camera_overlayer {
-  background: rgba(0,0,0,0.6);
+  /*background: rgba(0,0,0,0.6);*/
 }
 .banner-two h5 {font-weight: normal;}
 .banner-two h1 {
