@@ -420,55 +420,19 @@ jQuery(window).on('load', function () {
  });
 
  // Vector Map
- var data = {
-  "IN-AN":1712,
-  /*1822:"IN-AP",
-  3456:"IN-AR",
-  1927:"IN-AS",
-  2978:"IN-BR",
-  1931:"IN-CH",
-  2980:"IN-CT",
-  1937:"IN-DN",
-  3464:"IN-DD",
-  1932:"IN-DL",
-  2985:"IN-GA",
-  2984:"IN-GJ",
-  1934:"IN-HR",
-  1933:"IN-HP",
-  1948:"IN-JK",
-  2977:"IN-JH",
-  1938:"IN-KA",
-  1935:"IN-KL",
-  1714:"IN-LD",
-  2981:"IN-MP",
-  1939:"IN-MH",
-  1928:"IN-MN",
-  1930:"IN-ML",
-  3462:"IN-MZ",
-  1929:"IN-NL",
-  1936:"IN-OR",
-  2982:"IN-PY",
-  2973:"IN-PB",
-  2974:"IN-RJ",
-  2979:"IN-SK",
-  3463:"IN-TR",
-  2975:"IN-UP",
-  2976:"IN-UT",
-  2891:"IN-WB"*/
-  "IN-TN":2983
-}
- $('#vector-map').vectorMap({
+ jQuery('#vector-map').vectorMap({
   map: 'in_mill',
   series: {
-    regions: [
-      {
-        value: data,
-        scale: ['#C8EEFF', '#0071A4'],
-        normalizeFunction: 'polynomial'
-      }
-    ]
-  },
-  onRegionTipShow: function(e, el, code){
-    el.html(el.html()+' (GDP - '+gdpData[code]+')');
+    regions: [{
+      values:{
+        "IN-UP":'#008000',
+        "IN-GJ":'#008000',
+        "IN-RJ":'#008000',
+        "IN-TN":"#FF7F50",//#FF6347,
+        "IN-KA":"#FF7F50",
+        "IN-KL":"#FF7F50"
+      },
+      attribute: 'fill'
+    }],
   }
  })
