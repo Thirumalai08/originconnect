@@ -1013,7 +1013,8 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   font-weight: bold;
 }
 .more-about-us .main-content .main-wrapper p {
-  line-height: 35px;
+  font-size: 15px;
+  line-height: 30px;
   margin: 32px 0 40px 0;
 }
 .more-about-us [class*="col-"] {position: static;}
