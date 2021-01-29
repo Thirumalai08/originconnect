@@ -1051,6 +1051,8 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 .more-about-us .about-image-box {
   position: absolute;
   top: 90px;
+  left: -5px;
+  padding-left: 10px;
 }
 /*.more-about-us .image-box {
   position: absolute;
@@ -1068,15 +1070,16 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 .more-about-us .image-box .image-shape {
   -webkit-clip-path: url(#shape-one);
           clip-path: url(#shape-one);
+          
 }
-/**/.more-about-us .theme-shape-three {
+/*.more-about-us .theme-shape-three {
   background: url(../svg/2.svg);
   width: 865px;
   height: 525px;
   position: absolute;
   top: 85px;
   z-index: -1;
-}
+}*/
 /*------------------------ Theme Counter --------------------*/
 .theme-counter {
   text-align: center;
