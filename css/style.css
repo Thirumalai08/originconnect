@@ -971,7 +971,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 .what-we-do .single-block .icon.middle-block:before {left:-240px;}
 .what-we-do .single-block .icon.middle-block:after {right: -240px;}
 .what-we-do .single-block h6 { color: #333;font-weight: 600; }
-.what-we-do .single-block p {font-size: 11px;line-height: 1.5;text-align: justify;}
+.what-we-do .single-block p {font-size: 12px;line-height: 1.5;text-align: justify;color: #333;font-weight: 500;}
 /*---------------------- More About Us ---------------------*/
 .more-about-us.bg-color {
   background: #f6fbfe;
@@ -1016,6 +1016,8 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   font-size: 15px;
   line-height: 30px;
   margin: 32px 0 40px 0;
+  color: #333;
+  font-weight: 500;
 }
 .more-about-us [class*="col-"] {position: static;}
 .more-about-us .main-content .main-wrapper .button-wrapper {
