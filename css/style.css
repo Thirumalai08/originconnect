@@ -274,7 +274,8 @@ header.theme-menu-wrapper.menu-style-two #mega-menu-wrapper .nav .login-button a
 .blog-sidebar .sidebar-keyword ul li a:hover,.service-details .box-wrapper .title .loan {
   background: #00d747;
 }
-header.theme-menu-wrapper #mega-menu-wrapper .nav .login-button a:hover,.our-portfolio .theme-title a:hover,.banner-two .watch-video a:hover,.our-team-styleOne .title a:hover,
+header.theme-menu-wrapper #mega-menu-wrapper .nav .login-button a:hover,
+.our-portfolio .theme-title a:hover,.banner-two .watch-video a:hover,.our-team-styleOne .title a:hover,
 header.theme-menu-wrapper.menu-style-two #mega-menu-wrapper .nav .login-button a:hover,.gullu-portfolio .single-item .opacity a.view-more:hover:before,.our-blog.blog-v2 .load-more:hover,
 .contact-us .contact-address ul li a:hover,.shop-page .shop-sidebar .sidebar-search input:focus,.shop-details .procuct-details .product-info>div>a.cart-button,
 .shop-details .procuct-details .product-info>div>a.wishlist-button:hover,.blog-sidebar .sidebar-keyword ul li a:hover {
@@ -344,7 +345,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a {
   z-index: 9;
   /*color: #fff;*/
 }
-header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a:before,
+/*header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a:before,
 #mega-menu-wrapper .nav>li.dropdown-holder .sub-menu li a:before {
   content: '';
   width: 0;
@@ -355,7 +356,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a:before,
   border-radius: 2.5px;
   left:0;
   z-index: -1;
-}
+}*/
 header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a:before {top:17px;}
 #mega-menu-wrapper .nav>li.dropdown-holder .sub-menu li a:before {bottom: 14px;}
 header.theme-menu-wrapper #mega-menu-wrapper .nav>li.active>a:before,
